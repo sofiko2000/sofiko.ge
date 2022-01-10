@@ -15,16 +15,17 @@ a = prompt("შეიყვანეთ დაბადების რიცხ
 b = prompt("შეიყვანეთ დაბადების თვის რიცხვი");
 document.write("<br>","დღეს არის ",a,".",b,".",c, "<br>");
 var text = '{"chveni_jgufi":['+
+    '{"firstName":"სოფო", "lastName":"ნუკრაძე","day":11,"month":4,"year":"2000","img":"sofo.jpg"},'+
     '{"firstName":"ნიკა", "lastName":"ტყებუჩავა","day":13,"month":12,"year":"1998","img":"nika.jpg"},'+
     '{"firstName":"მარი", "lastName":"რეხვიაშვილი","day":"30","month":12,"year":"1997","img":"mari.jpg"},'+
-    '{"firstName":"მარიამ", "lastName":"ხალიჩავა","day":"8","month":7,"year":"2000","img":""},'+
-    '{"firstName":"ნინო", "lastName":"ცუცხუბაია","day":"29","month":9,"year":"2000","img":""},'+
-    '{"firstName":"რომან", "lastName":"შამათავა","day":"16","month":12,"year":"1997","img":""},'+
-    '{"firstName":"ვახტანგ", "lastName":"სართანია","day":"8","month":3,"year":"1999","img":""},'+
-    '{"firstName":"ნინო", "lastName":"ბაგალიშვილი","day":"17","month":3,"year":"1998","img":""},'+
-    '{"firstName":"ნადი", "lastName":"კოვალი","day":30,"month":12,"year":"1999","img":"nadi.jpg"},'+
-    '{"firstName":"ნათია", "lastName":"ცქიტიშვილი","day":"14","month":"2","year":"1999","img":""},'+
-    '{"firstName":"მარიამ","lastName":"კომლაძე","day":"14","month":"3","year":"2000","img":""}]}';
+    '{"firstName":"მარიამ", "lastName":"ხალიჩავა","day":"8","month":7,"year":"2000","img":"xalichava.jpg"},'+
+    '{"firstName":"ნინო", "lastName":"ცუცხუბაია","day":"29","month":9,"year":"2000","img":"nino.jpg"},'+
+    '{"firstName":"ნინო", "lastName":"ასანიძე","day":"28","month":7,"year":"1988","img":"asanidze.jpg"},'+
+    '{"firstName":"ნინო", "lastName":"ნუკრაძე","day":"1","month":8,"year":"1982","img":"nukradze.jpg"},'+
+    '{"firstName":"მარიამ", "lastName":"ქრისტესიაშვილი","day":"7","month":4,"year":"2000","img":"mariami.jpg"},'+
+    '{"firstName":"ლანა", "lastName":"ბასიშვილი","day":29,"month":12,"year":"2000","img":"lana.jpg"},'+
+    '{"firstName":"ქეთი", "lastName":"ტარიელაშვილი","day":"19","month":"7","year":"2000","img":"qeti.jpg"},'+
+    '{"firstName":"ფიქრია","lastName":"ნუკრაძე","day":"7","month":"3","year":"1985","img":"fiqria.jpg"}]}';
 
 obj = JSON.parse(text);
 for(i=0;i<=obj.chveni_jgufi.length;i++)
